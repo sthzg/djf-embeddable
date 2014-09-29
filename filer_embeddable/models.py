@@ -42,7 +42,7 @@ class Embeddable(File):
 
     def save(self, *args, **kwargs):
         """
-        Extracts json data from file object to mode fields and updates file
+        Extracts json data from file object to model fields and updates file
         object if data is altered in admin.
 
         Filename extension: *.embeddable
